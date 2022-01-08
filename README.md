@@ -69,5 +69,16 @@ DNS: Your favourite
 Mobile Phone:
   Download the Wireguard app and scan the QR Code
 
-Computer:
+Computer: Copy the configuration files to your computer
+  Create a Wireguard folder on your computer and copy the following files from your raspberry pi
+  ```
+sudo su
+cp /root/*.conf /home/pi
+```
+From the powershell start a sftp session on your new Wireguard folder
+```
+get *.conf
+```
+Download Wireguard for Windows and import the configuration file
+
 
