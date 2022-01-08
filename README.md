@@ -1,6 +1,6 @@
-# vpn
+# Home VPN Using a Raspberry Pi
 
-We will use our loved Raspbery Pi to create a VPN to our home network.
+We will use our Raspbery Pi to create a VPN to our home network.
 
 ## 1.- Setting a Dynamic DNS Server using afraid.org
 
