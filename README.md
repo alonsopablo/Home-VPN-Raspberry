@@ -39,7 +39,7 @@ Check on afraid.org if your subdomain changed from 0.0.0.0 to your Public IP add
 sudo systemctl status ddclient
 ```
 
-Meke sure systemctl boots with your Raspberry Pi
+Make sure systemctl boots with your Raspberry Pi
 ```
 sudo systemctl enable ddclient
 ```
@@ -58,26 +58,23 @@ IPV4&IPV6
 sudo wget https://git.io/wireguard -O wireguard-install.sh && sudo bash wireguard-install.sh
 ```
 
-hostname: Your Dinamyc DNS host created earlier
-port: 51820
-Client Name: Choose your favourite
+hostname: Your Dinamyc DNS host created earlier\
+port: 51820\
+Client Name: Choose your favourite\
 DNS: Your favourite
 
 ## 5.- Connecting to your VPN
 
-Mobile Phone:
-  Download the Wireguard app and scan the QR Code
+Mobile Phone: Download the Wireguard app and scan the QR Code
 
-Computer: Copy the configuration files to your computer
-  Create a Wireguard folder on your computer and copy the following files from your raspberry pi
-  ```
+Computer: Copy the configuration files to your computer.\
+Create a Wireguard folder on your computer and copy the .conf files from your raspberry pi.
+```
 sudo su
 cp /root/*.conf /home/pi
 ```
-From the powershell start a sftp session on your new Wireguard folder
+From the powershell start a sftp session and get the .conf file.
 ```
 get *.conf
 ```
 Download Wireguard for Windows and import the configuration file
-
-
