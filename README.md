@@ -9,10 +9,9 @@ Create a Free Account, add a Subdomain.
   Type: A \
   Subdomain: yoursubdomainname \
   Domain: Choose your favourite one \
-  Destination: 0.0.0.0 \
+  Destination: 0.0.0.0 
   
-Click on Save \
-
+Click on Save 
 
 ## 2.- Install ddclient on your Raspberry Pi
 
@@ -20,7 +19,7 @@ Click on Save \
 sudo apt install ddclient
 ```
 
-Press Enter until the installation is completed.
+Press Enter until the installation is completed.\
 Edit the ddclient.conf
 ```
 sudo nano /etc/ddclient.conf
@@ -47,10 +46,10 @@ sudo systemctl enable ddclient
 
 ## 3.- Port Forwarding on your RTR
 
-Devide: Raspberry Pi
-Protocol: UDP
-Aplication: Other/Wireguard
-Port: 51820
+Devide: Raspberry Pi\
+Protocol: UDP\
+Aplication: Other/Wireguard\
+Port: 51820\
 IPV4&IPV6
 
 ## 4.- Installing Wireguard VPN
