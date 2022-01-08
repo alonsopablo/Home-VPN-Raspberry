@@ -6,7 +6,7 @@ We will use our loved Raspbery Pi to create a VPN to our home network.
 
 Create a Free Account, add a Subdomain.
 
-  Type: A
+  Type: A \
   Subdomain: yoursubdomainname | pablabvpn.mooo.com
   Domain: Choose your favourite one
   Destination: 0.0.0.0
